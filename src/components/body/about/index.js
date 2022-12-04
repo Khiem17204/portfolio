@@ -7,7 +7,7 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           Enchanté,
-         <br /> <span className="info-name">Victor Philippe</span>.
+         <br /> <span className="info-name">Khiem Le</span>.
          <br /> Développeur Web Freelance
         </div>
         <div className="about-photo">
