@@ -1,5 +1,6 @@
 .about {
-    padding-bottom: 48px;
+    
+    height: 90vh;
 }
 .about-top{
     display: flex;
