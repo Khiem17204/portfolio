@@ -19,7 +19,7 @@ function Web() {
         </a>
     </div>
     <div className="web-option">
-      <a href="https://google.com">
+      <a href="#resume">
       <i className="fi fi-rr-file"></i>Resume
       </a>
     </div>

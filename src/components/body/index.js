@@ -5,6 +5,7 @@ import Projects from "./projects/index";
 import Skills from "./skills/index";
 import Contact from "./contact/index";
 import Education from "./education";
+import Resume from "./resume/resume";
 
 function Body() {
   return (
@@ -20,6 +21,9 @@ function Body() {
     </section>
     <section id="education">
       <Education />
+    </section>
+    <section id="resume">
+      <Resume />
     </section>
     <section id="contact">
       <Contact />
