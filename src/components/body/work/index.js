@@ -11,7 +11,7 @@ function Work() {
       <label className="section-title">Expériences</label>
       <div className="work-list">
         {data.map((item) => {
-          return <WorkCard item={item} />;
+          return <WorkCard item={item} key={item.id}/>;
         })}
       </div>
     </div>
