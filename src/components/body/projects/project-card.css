@@ -12,10 +12,11 @@
 
 .project-info{
     margin-right: 24px;
+    max-width: 45%;
 }
 
 .project-title{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
 }
 

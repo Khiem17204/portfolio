@@ -1,21 +1,43 @@
 export const ProjectData=[
     {
         id:1,
-        tagid:1,
-        title:"Grégory Jaccottet - Redesign",
-        about: "En Cours",
-        tags:["ReactJS", "TypeScript", "Ghost CMS", "Html/Css"],
-        url:"https://www.gregoryjaccottet.com",
-        image:"https://github.com/ThantZinPhyo-OP/lisandromartinez/raw/main/previews.png",
+        title:"Real Time Chat App",
+        about: "A real-time chat app using React for frontend, Node, Express for backend, and Harper database.",
+        tags:["ReactJS", "NodeJS", "Express", "Harper Database"],
+        github:"https://github.com/Khiem17204/Real-time-chat-app",
+        image: require("../../assets/projects/chatapp.JPG")
     },
     {
         id:2,
-        tagid:2,
-        title:"Reponsive Portfolio",
-        about: "This is a ramdom project I am using to React.JS,Javascript, HTML/CSS.This is portfolio website and I hope you are enjoying this portfolio.Make sure you like and comment if you have any doubt",
-        tags:["ReactJS", "Javascript", "Firebase", "Portfolio"],
-        demo:"https://github.com/ThantZinPhyo-OP/Portfolio-Website",
-        github:"https://github.com/ThantZinPhyo-OP/Portfolio-Website",
-        image:"https://github.com/ThantZinPhyo-OP/Portfolio-Website/raw/main/home.png",
+        title:"Workout Tracker App",
+        about: "A personal project using React and JSON local server to store, update, and delete exercises' details and status." ,
+        tags:["ReactJS", "NodeJS" ,"JSON Local Server" ],
+        github:"https://github.com/Khiem17204/Workout-tracker-app",
+        image: require("../../assets/projects/workout.JPG")
     },
+    {
+        id: 3,
+        title: "Rise of Anya",
+        about: "A renovated dinosour game for HackUmass 10's beginner section.",
+        tags: ["Javascript", "HTML/CSS"],
+        demo: "https://riseofanya.netlify.app",
+        github: "https://github.com/Khiem17204/HackUmass-The-Rise-Of-Anya",
+        image: require("../../assets/projects/anya.png")
+    },
+    {
+        id: 4,
+        title: "Wordle In Terminal",
+        about: "A customized Wordle have 2 different mode of both 5 and 6 letter words. There are over 2000 5-letter words and 500 6-letter words to avoid repitition.",
+        tags: ["Python"],
+        github: "https://github.com/Khiem17204/Wordle-in-terminal",
+        image: require("../../assets/projects/wordle.png")
+    },
+    {
+        id: 5,
+        title: "Book Inventory System",
+        about: "A book inventory checking appCreated a book inventory checking app with object-oriented programming methodology to include features such as update, remove, add, and check book.", 
+        tags: ["C++"],
+        github: "https://github.com/Khiem17204/Book-Inventory",
+        image: require("../../assets/projects/book.png")
+    }
 ];
