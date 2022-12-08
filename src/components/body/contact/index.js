@@ -10,7 +10,7 @@ function Contact() {
     <div className="contact-container">
       <div className="contact-form">
         <p>Want to get in touch? Contact me on any of the platform</p>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact-form" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
