@@ -2,7 +2,30 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: center;
 }
+.form-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+.form-info{
+    width: 40%;
+}
+.form-input{
+    width: 50%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    background-color: #9b72e1;
+    border-radius: 10px;
+}
+
 .section-title {
     font-size: 32px;
     font-weight: 700;
@@ -13,5 +36,4 @@
     flex: 1;
     justify-content: center;
     text-align: center;
-    
 }
