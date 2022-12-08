@@ -2,7 +2,7 @@ import React from "react";
 import "./contact.css";
 import Separator from "../../common/separator";
 import SocialContact from "../../common/social-contact";
-import ContactForm from "./ContactForm";
+import ContactForm from "./ContactForm.js";
 
 function Contact() {
   return (
