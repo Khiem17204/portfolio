@@ -1,27 +1,39 @@
 import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
-const ContactForm = () => {
+function ContactForm() {
+  const [state, handleSubmit] = useForm("myyvrnpk");
+  if (state.succeeded) {
+      return <p>Thanks for joining!</p>;
+  }
   return (
-    <form name="contact-form" method="POST" data-netlify="true">
-        <p>
-            <label>Your Name: <input type="text" name="name" /></label>
-        </p>
-        <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-            <label>Your Role: <select name="role[]" multiple>
-                <option value="leader">Leader</option>
-                <option value="follower">Follower</option>
-            </select></label>
-        </p>
-        <p>
-            <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-            <button type="submit">Send</button>
-        </p>
+      <form onSubmit={handleSubmit}>
+      <label htmlFor="email">
+        Email Address
+      </label>
+      <input
+        id="email"
+        type="email" 
+        name="email"
+      />
+      <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
+      <textarea
+        id="message"
+        name="message"
+      />
+      <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
+      <button type="submit" disabled={state.submitting}>
+        Submit
+      </button>
     </form>
-  )
+  );
 }
 export default ContactForm;
