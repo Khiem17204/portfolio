@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const contactForm = () => {
+const ContactForm = () => {
   return (
     <form name="contact-form" method="POST" data-netlify="true">
         <p>
@@ -24,4 +24,4 @@ const contactForm = () => {
     </form>
   )
 }
-export default contactForm;
+export default ContactForm;
