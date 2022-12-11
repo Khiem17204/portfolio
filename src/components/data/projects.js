@@ -20,6 +20,7 @@ export const ProjectData=[
         title: "Crypto Tracker Web",
         about: "A personal project using coinGecko API and React to create a board for the most popular cryptocurrencies", 
         tags: ["ReactJs", "NodeJS"],
+        demo: "https://coin-board.netlify.app/",
         github: "https://github.com/Khiem17204/react-crypto-track",
         image: require("../../assets/projects/crypto.JPG")
     },
