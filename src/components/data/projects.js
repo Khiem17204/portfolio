@@ -17,6 +17,14 @@ export const ProjectData=[
     },
     {
         id: 3,
+        title: "Crypto Tracker Web",
+        about: "A personal project using coinGecko API and React to create a board for the most popular cryptocurrencies", 
+        tags: ["ReactJs", "NodeJS"],
+        github: "https://github.com/Khiem17204/react-crypto-track",
+        image: require("../../assets/projects/crypto.JPG")
+    },
+    {
+        id: 4,
         title: "Rise of Anya",
         about: "A renovated dinosour game for HackUmass 10's beginner section.",
         tags: ["Javascript", "HTML/CSS"],
@@ -25,19 +33,12 @@ export const ProjectData=[
         image: require("../../assets/projects/anya.png")
     },
     {
-        id: 4,
+        id: 5,
         title: "Wordle In Terminal",
         about: "A customized Wordle have 2 different mode of both 5 and 6 letter words. There are over 2000 5-letter words and 500 6-letter words to avoid repitition.",
         tags: ["Python"],
         github: "https://github.com/Khiem17204/Wordle-in-terminal",
         image: require("../../assets/projects/wordle.png")
     },
-    {
-        id: 5,
-        title: "Book Inventory System",
-        about: "A book inventory checking appCreated a book inventory checking app with object-oriented programming methodology to include features such as update, remove, add, and check book.", 
-        tags: ["C++"],
-        github: "https://github.com/Khiem17204/Book-Inventory",
-        image: require("../../assets/projects/book.png")
-    }
+    
 ];
