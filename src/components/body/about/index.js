@@ -12,8 +12,9 @@ function About() {
          <br /> <span className="info-name">Khiem Le</span>
          <br /> 
          <Typewriter
+          className='typewriter'
           options={{
-            strings: ['Computer Science Student','Prospective Software Engineer '],
+            strings: ['Computer Science Student','Prospective Software Engineer'],
             autoStart: true,
             loop: true,
             delay: 50,

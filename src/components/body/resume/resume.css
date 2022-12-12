@@ -8,4 +8,18 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    height: 1060px;
+    width: 960px;
+
+}
+.resume-data{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 720px){
+    .frame{
+        height: 500px;
+        width: 440px;
+    }
 }

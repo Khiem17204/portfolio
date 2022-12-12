@@ -30,4 +30,8 @@
         flex-direction: column;
         align-items: center;
     }
+    .skills{
+        height: fit-content;
+    }
+
 }
