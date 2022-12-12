@@ -29,9 +29,11 @@
     font-weight: 800;
     animation: appear 2.5s;
     margin-top: 10px;
+    
 }
 .link {
     text-decoration: none;
+    text-decoration-color: #7e57c2;
 }
 @keyframes appear {
     0%{
