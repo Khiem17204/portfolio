@@ -16,7 +16,16 @@ export const ProjectData=[
         image: require("../../assets/projects/workout.JPG")
     },
     {
-        id: 3,
+        id:3,
+        title: "Weather App",
+        about: "A weather app using React and API from GeoDB and OpenWeatherMap to retrive weather information for cities around the world",
+        tags: ["ReactJs", "NodeJs", "API"],
+        github: "https://github.com/Khiem17204/react-weather-app",
+        demo: "https://weather-trackers.netlify.app",
+        image: require("../../assets/projects/weather-app.JPG")
+    },
+    {
+        id: 4,
         title: "Crypto Tracker Web",
         about: "A personal project using coinGecko API and React to create a board for the most popular cryptocurrencies", 
         tags: ["ReactJs", "NodeJS"],
@@ -25,7 +34,7 @@ export const ProjectData=[
         image: require("../../assets/projects/crypto.JPG")
     },
     {
-        id: 4,
+        id: 5,
         title: "Rise of Anya",
         about: "A renovated dinosour game for HackUmass 10's beginner section.",
         tags: ["Javascript", "HTML/CSS"],
@@ -34,7 +43,7 @@ export const ProjectData=[
         image: require("../../assets/projects/anya.png")
     },
     {
-        id: 5,
+        id: 6,
         title: "Wordle In Terminal",
         about: "A customized Wordle have 2 different mode of both 5 and 6 letter words. There are over 2000 5-letter words and 500 6-letter words to avoid repitition.",
         tags: ["Python"],
