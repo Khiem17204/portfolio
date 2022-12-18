@@ -33,7 +33,10 @@
 }
 .link {
     text-decoration: none;
-    text-decoration-color: #7e57c2;
+    color: #7e57c2;
+}
+.link:link{
+    color: #7e57c2;
 }
 @keyframes appear {
     0%{
