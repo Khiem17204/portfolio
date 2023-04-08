@@ -4,8 +4,21 @@ export const SkillsData = [
     type: "Languages",
     list: [
       {
+        name: "Javascript",
+        icon: <i class="devicon-javascript-plain colored"></i>
+      
+      },
+      {
         name: "Python",
         icon: <i className="devicon-python-plain colored"></i>
+      },
+      {
+        name: "Swift",
+        icon: <i class="devicon-swift-plain colored"></i>
+      },
+      {
+        name: "Java",
+        icon: <i class="devicon-java-plain colored"></i>
       },
       {
         name: "C/C++",
@@ -19,7 +32,8 @@ export const SkillsData = [
         name: "mySQL",
         icon: <i class="devicon-mysql-plain-wordmark colored"></i>
       
-      }
+      },
+      
     ],
   },
   {
@@ -56,7 +70,18 @@ export const SkillsData = [
         name: "Express",
         icon: <i class="devicon-express-original-wordmark colored"></i>
       },
-      
+      {
+        name: "Django",
+        icon: <i class="devicon-django-plain colored"></i>
+      },
+      {
+        name: "AWS",
+        icon: <i class="devicon-amazonwebservices-original colored"></i>
+      },
+      {
+        name: "Heroku",
+        icon: <i class="devicon-heroku-original colored"></i>
+      },
     ]
   },
   {
@@ -66,6 +91,11 @@ export const SkillsData = [
       {
         name: "Git",
         icon: <i class="devicon-git-plain colored"></i>
+      },
+      {
+        name: "Xcode",
+        icon: <i class="devicon-xcode-plain colored"></i>
+      
       },
       {
         name: "Socket.io",

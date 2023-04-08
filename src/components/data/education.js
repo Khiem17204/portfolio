@@ -5,7 +5,7 @@ export const EducationData = [
         dateJoining: "2022",
         dateEnd: "2026",
         schoolLogo: require("../../assets/education/school.svg.png"),
-        desc:"B.S in Computer Science with a minor in Mathematics",
+        desc:"B.S in Computer Science with a Minor in Mathematics",
     },
     {
         id: 2,

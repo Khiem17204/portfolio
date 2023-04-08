@@ -35,20 +35,19 @@ export const ProjectData=[
     },
     {
         id: 5,
-        title: "Rise of Anya",
-        about: "A renovated dinosour game for HackUmass 10's beginner section.",
-        tags: ["Javascript", "HTML/CSS"],
-        demo: "https://riseofanya.netlify.app",
-        github: "https://github.com/Khiem17204/HackUmass-The-Rise-Of-Anya",
-        image: require("../../assets/projects/anya.png")
+        title: "Bereal",
+        about: "An IOS  clone of Bereal application that features user's authentication, images upload, and commenting",
+        tags: ["Swift", "Storyboard","ParseSwift", "CocoaPod", "Back4App"],
+        github: "https://github.com/Khiem17204/IOS-bereal-clone",
+        image: require("../../assets/projects/bereal.png")
     },
     {
         id: 6,
-        title: "Wordle In Terminal",
-        about: "A customized Wordle have 2 different mode of both 5 and 6 letter words. There are over 2000 5-letter words and 500 6-letter words to avoid repitition.",
-        tags: ["Python"],
-        github: "https://github.com/Khiem17204/Wordle-in-terminal",
-        image: require("../../assets/projects/wordle.png")
+        title: "Flixster",
+        about: "An IOS app utilizes MovieDB API to display movies list and movie recommendations",
+        tags: ["Swift", "Storyboard", "API"],
+        github: "https://github.com/Khiem17204/IOS-Flixster",
+        image: require("../../assets/projects/flixster.png")
     },
     
 ];

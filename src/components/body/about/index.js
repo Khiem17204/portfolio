@@ -14,7 +14,7 @@ function About() {
          <Typewriter
           className='typewriter'
           options={{
-            strings: ['Computer Science Student','Prospective Software Engineer'],
+            strings: ['Computer Science Student','Software Engineer', 'Web/Mobile Developer'],
             autoStart: true,
             loop: true,
             delay: 50,
