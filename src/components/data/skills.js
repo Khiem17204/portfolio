@@ -6,7 +6,6 @@ export const SkillsData = [
       {
         name: "Javascript",
         icon: <i class="devicon-javascript-plain colored"></i>
-      
       },
       {
         name: "Python",
@@ -23,15 +22,6 @@ export const SkillsData = [
       {
         name: "C/C++",
         icon: <i className="devicon-c-plain colored"></i>
-      },
-      {
-        name: "C#",
-        icon: <i className="devicon-csharp-plain colored"></i>
-      },
-      {
-        name: "mySQL",
-        icon: <i class="devicon-mysql-plain-wordmark colored"></i>
-      
       },
       
     ],
@@ -79,8 +69,28 @@ export const SkillsData = [
         icon: <i class="devicon-amazonwebservices-original colored"></i>
       },
       {
-        name: "Heroku",
-        icon: <i class="devicon-heroku-original colored"></i>
+        name: "mySQL",
+        icon: <i class="devicon-mysql-plain-wordmark colored"></i>
+      },
+      {
+        name: "Firebase",
+        icon: <i class="devicon-firebase-plain colored"></i>
+      },
+      {
+        name: "MongoDb",
+        icon: <i class="devicon-mongodb-plain colored"></i>
+      },
+      {
+        name: "Docker",
+        icon: <i class="devicon-docker-plain colored"></i>
+      },
+      {
+        name: "Kubernetes",
+        icon: <i class="devicon-kubernetes-plain colored"></i>
+      },
+      {
+        name: "Linux",
+        icon: <i class="devicon-linux-plain colored"></i>
       },
     ]
   },

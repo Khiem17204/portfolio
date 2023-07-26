@@ -3,9 +3,9 @@ export const EducationData = [
         id: 1,
         school: "University of Massachusetts - Amherst" ,
         dateJoining: "2022",
-        dateEnd: "2026",
+        dateEnd: "2025",
         schoolLogo: require("../../assets/education/school.svg.png"),
-        desc:"B.S in Computer Science with a Minor in Mathematics",
+        desc:"B.S in Computer Science and Mathematics with concentration in Statistic and Data Science",
     },
     {
         id: 2,
