@@ -5,7 +5,7 @@ export const ProjectData=[
         about: "A customizable typing website with a minimalistic design. Test yourself in various modes, track your progress and improve your speed." ,
         tags:["ReactJS", "NodeJS" ,"Firebase" ],
         demo: "https://typing-speed-app-192d3.web.app/",
-        github:"https://github.com/Khiem17204/Workout-tracker-app",
+        github:"https://github.com/Khiem17204/typing-speed-app",
         image: require("../../assets/projects/typing.png")
     },
     {
